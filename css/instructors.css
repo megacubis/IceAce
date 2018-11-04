@@ -134,3 +134,19 @@ body {
     font-size: 20px;
     font-weight: bold;
 }
+
+.headlines {
+    font-size: 20px;
+}
+
+.text {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+}
