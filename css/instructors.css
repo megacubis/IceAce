@@ -95,22 +95,42 @@ body {
     justify-content: space-between;
 }
 
-.main-skills {
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
 .skills {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .topic {
     margin: 0;
 }
 
+.main-skills {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.list {
+    list-style-type: none;
+    
+}
+
 .buttons {  
     margin-top: 15px;
     display: flex;
     flex-direction: column;
+}
+
+.lightning-icon {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    margin: 25px 0;
+}
+
+.button-text {
+    font-size: 20px;
+    font-weight: bold;
 }
