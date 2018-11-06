@@ -23,7 +23,7 @@ body {
 
 .container {
     margin: 0 40px;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 h1  {
