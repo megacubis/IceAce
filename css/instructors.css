@@ -62,7 +62,7 @@ body {
 
 .instructors-img {
     display: flex;
-    justify-content: center;
+   
 }
 
 .images {
@@ -149,4 +149,74 @@ body {
 .education {
     display: flex;
     justify-content: space-between;
+}
+
+.coment-img {
+    background: url(../img/coment-img.jpg) no-repeat;
+    background-size: 100%;
+    padding: 30px;
+}
+
+footer {
+    background: url(../img/bg-footer.png) no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.icon {
+    padding-left: 30px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 3px solid #000;
+    padding: 10px;
+}
+
+.footer-icons {
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.namber,
+.contacts-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.footer-menu {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-items {
+    display: inline-block;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #000;
 }
