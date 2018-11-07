@@ -59,3 +59,49 @@ body {
      text-transform: uppercase;
      font-weight: bold;
 }
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+table {
+    font-size: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    padding:15px 35px 15px 15px;
+    border: 1px solid #000;
+}
+
+.advanced-level {
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo {
+    position: relative;
+}
+
+.img-instr {
+    border-radius: 50%;
+    width: 180px;
+    height: 178px;
+}
+
+.konstantin {
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
