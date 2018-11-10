@@ -4,8 +4,8 @@ body {
     font-size: 12px;
 }
 .container {
-    margin: 0 40px;
-    width: 1200px;
+    margin: 0 85px;
+    max-width: 1200px;
     margin-bottom: 30px;
 }
 
@@ -80,7 +80,8 @@ td {
 }
 
 .advanced-level {
-    border: 1px solid #000;
+    padding-top: 30px;
+    border: 2px solid #000;
     display: flex;
     justify-content: space-around;
 }
@@ -100,8 +101,13 @@ td {
     font-size: 18px;
     color: #fff;
     background-color: #000;
-    border: 1px solid #000;
+    border: 2px solid #000;
     position: absolute;
     bottom: 0px;
     left: 10px;
+}
+
+.buy {
+    display: flex;
+    flex-direction: column;
 }
