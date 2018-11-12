@@ -75,12 +75,17 @@ body {
     font-size: 24px;
 }
 
-.imp {
+input {
+    border: 2px solid #000;
+}
+
+.inp {
     text-align: center;
     margin: 30px;
 }
 
-.imp-text {
+.inp-text {
+    padding-left: 10px;
     width: 500px;
     height: 25px;
 }

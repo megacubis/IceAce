@@ -4,8 +4,8 @@ body {
     font-size: 12px;
 }
 .container {
-    margin: 0 85px;
-    max-width: 1200px;
+    margin: 0 40px;
+    width: 1200px;
     margin-bottom: 30px;
 }
 
@@ -76,7 +76,15 @@ th {
 
 td {
     padding:15px 35px 15px 15px;
-    border: 1px solid #000;
+    border: 2px solid #000;
+}
+.td-btn {
+    color: #74e196;
+     background-color: #fff;
+     padding: 10px;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
 }
 
 .advanced-level {
