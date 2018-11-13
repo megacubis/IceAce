@@ -88,11 +88,11 @@ td {
 }
 .td-btn {
     color: #74e196;
-     background-color: #fff;
-     padding: 10px;
-     text-decoration: none;
-     text-transform: uppercase;
-     font-weight: bold;
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .advanced-level {
@@ -142,4 +142,22 @@ td {
 .price {
     padding-bottom: 20px;
     font-size: 25px;
+}
+.links {
+    text-align: center;
+    font-size: 20px;
+}
+
+.chevron {
+    text-decoration: none;
+    color: #74e196;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.links:active {
+    color: #74e196;
 }
