@@ -3,6 +3,12 @@ body {
     padding: 0;
     font-size: 12px;
 }
+
+@font-face {
+    font-family: 'FuturaPTBold';
+    src: url(../fonts/FuturaPTBold.otf);
+}
+
 .container {
     margin: 0 40px;
     width: 1200px;
@@ -66,6 +72,8 @@ h1 {
 }
 
 table {
+    font-family: 'FuturaPTBold';
+    width: 1200px;
     font-size: 20px;
     border-collapse: collapse;
 }
@@ -115,7 +123,23 @@ td {
     left: 10px;
 }
 
+.text {
+    font-family: 'FuturaPTBold';
+}
+
+.info {
+    text-decoration: none;
+    color: #000;
+
+}
+
+
 .buy {
     display: flex;
     flex-direction: column;
+}
+
+.price {
+    padding-bottom: 20px;
+    font-size: 25px;
 }
