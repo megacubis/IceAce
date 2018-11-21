@@ -257,9 +257,7 @@ h1  {
 }
 
 .comands-btn {
-    position: absolute;
-    left: 500px;
-    bottom: 30px;
+    text-align: center;
 }
 
 .community {
