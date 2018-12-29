@@ -247,7 +247,7 @@
         </section>
 
         <div>
-            <img class="map" src="./img/Saint_Petersburg_Ring_Road.PNG" alt="">
+            <div id="map"></div>
         </div>
         
 
@@ -307,5 +307,26 @@
             </div>
         </div>
     </footer>
+
+    <script>
+            
+        function initMap() {
+        
+        var uluru = {lat: 59.9356323, lng: 30.335969};
+        
+        var map = new google.maps.Map(
+            document.getElementById('map'), {
+                zoom: 10, center: uluru
+            });
+        
+        var marker = new google.maps.Marker({
+            position: uluru, map: map
+        });
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhufpOn7afmDy1eV7rBFm_YmSGVBj0wTQ&callback=initMap">
+    </script>
+    
 </body>
 </html>
