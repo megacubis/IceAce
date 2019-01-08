@@ -10,9 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" 
-    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
-    crossorigin="anonymous"></script>
 
     <header>
         <div class="head-img">
@@ -31,22 +28,15 @@
                     <div class="logo">
                         <img src="./img/logo.png" >
                     </div>
-                    <nav class="main-nav">
-                        <ul class="main-list">
-                            <li class="main-items">
-                                <a class="main-link" href="https://megacubis.github.io/IceAce3/">Расписание</a>
-                            </li>
-                            <li class="main-items">
-                                <a class="main-link" href="https://megacubis.github.io/IceAce2/">Инструкторы</a>
-                            </li>
-                            <li class="main-items">
-                                <a class="main-link" href="https://megacubis.github.io/IceAce3/">Стоимость</a>
-                            </li>
-                            <li class="main-items">
-                                <a class="main-link" href="#">Как добраться</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <nav>
+                        <div class="topnav" id="myTopnav">
+                            <a href="https://megacubis.github.io/IceAce3/">Расписание</a>
+                            <a href="https://megacubis.github.io/IceAce2/">Инструкторы</a>    
+                            <a href="https://megacubis.github.io/IceAce3/">Стоимость</a>
+                            <a href="#">Как добраться</a>  
+                            <a id="menu" href="#" class="icon">&#9776;</a>
+                        </div>
+                        </nav>
                     <div class="contacts">
                         <a href="tel:+78008008080" class="contacts-phone">8(800)800-80-80</a>
                         <a href="https://megacubis.github.io/IceAce2/" class="btn">Записаться</a>
@@ -63,15 +53,17 @@
                 </div>
                 <div class="course-description">
                     <div class="courses vertical-courses">
-                        <img src="./img/service-img1.png">
+                        <div class="photo-itm">
+                            <img src="./img/service-img1.png">
+                        </div>
                         <div class="left-box-text">
                             <h3 class="subsection-name">Разовое посещение</h3>
                             <p class="text">Впервые здесь? Тогда эта возможность точно<br>
-                            для вас. Приходите на разовое занятие<br>
-                            и проникнетесь атмосферой школы,<br>
-                            познакомитесь с инструкторами и узнаете<br>
-                            о том, как проходит обучение. После занятия<br>
-                            мы определим ваш уровень и прикинем план<br>
+                            для вас. Приходите на разовое занятие
+                            и проникнетесь атмосферой школы,
+                            познакомитесь с инструкторами и узнаете
+                            о том, как проходит обучение. После занятия-
+                            мы определим ваш уровень и прикинем план
                             занятий</p>
                             <div class="footer-box">
                                 <strong>3 часа</strong>
@@ -83,7 +75,9 @@
                     </div>
                     <div class="right-box">
                         <div class="courses">
-                            <img src="./img/service-img2.png">
+                            <div class="photo-itm">
+                                <img src="./img/service-img2.png">
+                            </div>
                             <div class="right-box-text">
                                 <h3 class="subsection-name">Краткий курс</h3>
                                 <p class="text">Экспресс курс расчитан на тех, кто хочет<br>
@@ -101,7 +95,9 @@
                             </div>    
                         </div>
                         <div class="courses">
-                            <img src="./img/service-img3.png">
+                            <div class="photo-itm">
+                                <img src="./img/service-img3.png">
+                            </div>
                             <div class="right-box-text">
                                 <h3 class="subsection-name">Полный курс</h3>
                                 <p class="text">Продвинутый курс для самых вдохновленных<br>
@@ -328,5 +324,8 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhufpOn7afmDy1eV7rBFm_YmSGVBj0wTQ&callback=initMap">
     </script>
     
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" 
+    integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
+    crossorigin="anonymous"></script>
 </body>
 </html>
